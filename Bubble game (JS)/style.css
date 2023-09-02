@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(190, 221, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+
+    height: 75%;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#ptop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(101, 183, 101);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25%;
+    
+}
+
+.elem{
+    display:flex;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.elem h2{
+    font-weight: 700;
+}
+
+.box{
+    background-color: rgb(243, 241, 241);
+    padding: 5px 20%;
+    border-radius: 5px ;
+    color: rgb(114, 204, 112);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#pbtm{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(103, 143, 103);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.bubble:hover{
+    background-color:rgb(43, 133, 43) ;
+    cursor: pointer;
+}
